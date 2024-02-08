@@ -4,6 +4,7 @@
   margin: 0%;
   box-sizing: border-box;
   text-decoration: none;
+  color: #252b42;
   font-family: "Poppins", sans-serif;
 }
 ul {
@@ -24,7 +25,6 @@ nav {
 .title-website {
   font-size: 24px;
   font-weight: 700;
-  color: #252b42;
 }
 .nav-ul {
   list-style: none;
@@ -228,7 +228,6 @@ nav {
   color: #737373;
 }
 .right-meet-main h6 {
-  color: #252b42;
   font-size: 16px;
 }
 /* ////////////////////////// */
@@ -348,7 +347,6 @@ nav {
   color: #ffffff !important;
 }
 .title-impressions-2 {
-  color: #252b42;
   font-weight: 700;
   font-size: 16px;
 }
@@ -490,4 +488,160 @@ nav {
 }
 .pricing-card .gree-tik-pricing-card i {
   background-color: #2dc071;
+}
+/* ///////////////////////////// */
+
+#contact {
+  height: 851px;
+  margin: 0px 14%;
+  display: flex;
+  justify-content: center;
+  padding: 160px 0px 160px 0px;
+  flex-direction: column;
+  gap: 100px;
+}
+.contact-title {
+  width: 70%;
+}
+.practice-advice-cards-list {
+  display: flex;
+  width: 100%;
+  height: 317px;
+  gap: 30px;
+}
+.practice-advice-card {
+  box-shadow: 0px 2px 19px rgb(241, 241, 241);
+  padding: 25px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.practice-advice-card p {
+  font-size: 14px;
+  color: #737373;
+}
+.practice-advice-card img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+}
+.image-name-job {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  gap: 10px;
+}
+.name-lastname-contact {
+  display: flex;
+  flex-direction: column;
+}
+.name-contact {
+  color: #fc724d;
+  font-weight: 700;
+  font-size: 14px;
+}
+.contact-job {
+  font-size: 12px;
+}
+/* /////////////////////// */
+.join-us-contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  margin: 0px 14%;
+  text-align: center;
+}
+.contact-join-us-title {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  justify-content: center;
+}
+.input-contact {
+  display: flex;
+}
+.input-contact input {
+  width: 650px;
+  height: 60px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #e6e6e6;
+  padding: 10px 15px;
+  outline: none;
+  font-size: 18px;
+}
+.input-contact button {
+  width: 120px;
+  position: absolute;
+  right: 330px;
+  color: white;
+  cursor: pointer;
+  background-color: #fc724d;
+  border: 1px solid #e6e6e6;
+  height: 60px;
+}
+/* footer */
+footer {
+  margin: 0px 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0px 20px 0px;
+  height: 350px;
+}
+.hr-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.bottom-footer {
+  height: 75px;
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+  justify-content: space-between;
+}
+.footer-social-icon {
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+}
+.footer-social-icon p {
+  font-weight: 700;
+}
+.footer-social-icon i {
+  height: 24px;
+  width: 24px;
+}
+.hr-footer h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.column-footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 170px;
+}
+.column-footer-content ul {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.column-footer-content .call-info li {
+  font-size: 14px;
+  margin: 6px 0px;
+}
+.call-info li i {
+  cursor: pointer;
+  margin-right: 10px;
 }
