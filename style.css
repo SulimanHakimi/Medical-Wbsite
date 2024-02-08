@@ -21,6 +21,7 @@ nav {
 .title-website {
   font-size: 24px;
   font-weight: 700;
+  color: #252b42;
 }
 .nav-ul {
   list-style: none;
@@ -28,6 +29,7 @@ nav {
   gap: 20px;
 }
 .nav-ul li a {
+  cursor: pointer;
   color: #737373;
 }
 .button-login-sign-in {
@@ -38,12 +40,14 @@ nav {
   gap: 15px;
 }
 .button-login-sign-in .loginBtn {
+  cursor: pointer;
   color: #fc724d;
 }
 .joinBtn {
   padding: 15px 25px 15px 25px;
   color: #ffffff;
   background-color: #fc724d;
+  cursor: pointer;
   border-radius: 5px;
 }
 .joinBtn i {
