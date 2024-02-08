@@ -6,6 +6,9 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+ul {
+  list-style: none;
+}
 .continair {
   width: 100%;
   margin: 0px auto;
@@ -108,15 +111,15 @@ nav {
   margin: 0px 14%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 70px;
 }
 .title-page-doctors {
   display: flex;
-  width: 100%;
+  width: 60%;
   height: 134px;
   justify-content: space-between;
+  align-items: start;
   flex-direction: column;
 }
 .title-page-doctors span {
@@ -167,7 +170,6 @@ nav {
   margin: 0px 14%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-evenly;
 }
 .main-meet-experts {
@@ -228,4 +230,264 @@ nav {
 .right-meet-main h6 {
   color: #252b42;
   font-size: 16px;
+}
+/* ////////////////////////// */
+
+.our-impressions {
+  height: 761px;
+  margin: 0px 14%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+.title-impressions {
+  width: 381px;
+}
+.title-impressions strong {
+  margin-bottom: 30px;
+}
+.our-impressions-line {
+  background: #e74040;
+  height: 5px;
+  width: 80px;
+}
+.our-impressions-img {
+  width: 500px;
+  height: 400px;
+}
+.rectangle-img-impreesions {
+  position: relative;
+  width: 326px;
+  height: 368px;
+  border-radius: 26px;
+  z-index: 1;
+}
+.herbal {
+  border-radius: 26px;
+  position: absolute;
+  right: 180px;
+  z-index: 0.9;
+  width: 354px;
+  height: 346px;
+}
+/* //////////////////////// */
+.see-our-mpressions2 {
+  height: 1100px;
+  margin: 0px 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.card-list-our-imperssions2 {
+  height: 620px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.card-our-imperssions2 {
+  width: 320px;
+  height: 620px;
+}
+.card-our-imperssions2-icons {
+  background-image: url("./Icons\ and\ Images/ambulance.png");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 150px;
+  flex-direction: column;
+}
+.card-list-our-imperssions2 .sale {
+  align-self: start;
+  margin-left: 30px;
+  background: #e74040;
+  color: white;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 0px 10px 0px 10px;
+  font-weight: 700;
+}
+.img-our-impressions2 img {
+  background-color: white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.card-content-imperssions2 {
+  padding: 25px 25px 35px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pr-name-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.pr-name-rating span {
+  font-weight: 700;
+  color: #fc724d;
+}
+.stars {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+  border-radius: 20px;
+  gap: 5px;
+  padding: 5px;
+  background-color: #26335d;
+}
+.stars p {
+  font-size: 12px;
+  color: #ffffff !important;
+}
+.title-impressions-2 {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 16px;
+}
+.card-content-imperssions2 p {
+  color: #737373;
+}
+.down-sales {
+  color: #737373;
+  font-weight: 700;
+  width: 100px;
+}
+.down-sales img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.discount-prices-imperssion2 {
+  width: 110px;
+  height: 35px;
+  display: flex;
+  gap: 5px;
+  padding: 5px 3px 5px 3px;
+  font-weight: 700;
+}
+.discount {
+  color: #0061ff;
+}
+.noneDis {
+  color: #bdbdbd;
+}
+.Impressions2-btn-learnMore {
+  border: 1px solid #fc724d;
+  color: #fc724d;
+  width: 150px;
+  height: 45px;
+  border-radius: 35px;
+  padding: 10px 20px 10px 20px;
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  cursor: pointer;
+  align-items: center;
+}
+.Impressions2-btn-learnMore span {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* ////////////////////////pricing */
+#pricing {
+  width: 100%;
+  background-color: #26335d;
+}
+.pricing {
+  height: 1440px;
+  margin: 0px 14%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.pricing-title {
+  color: white;
+}
+.pricing-title p {
+  color: white;
+}
+.pricing-card-list {
+  display: flex;
+  gap: 35px;
+}
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+  background-color: white;
+  height: 900px;
+  width: 345px;
+  padding: 50px 30px 50px 30px;
+}
+.herat {
+  font-size: 30px;
+  padding: 20px;
+  color: white;
+  border-radius: 50%;
+  background-color: #fc724d;
+}
+.pricing-card h1 {
+  font-weight: 700;
+  font-size: 24px;
+}
+.pricing-card span {
+  color: #737373;
+  font-weight: 700;
+}
+.price-per-month {
+  display: flex;
+  flex-direction: column;
+}
+.price-dolor {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fc724d !important;
+}
+.per-month {
+  color: #8ec2f2 !important;
+  font-weight: 700;
+}
+.pricing-card p {
+  color: #737373;
+}
+.pricing-card button {
+  padding: 15px 40px 15px 40px;
+  background: #fc724d;
+  border-radius: 5px;
+  width: 245px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.pricing-card ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pricing-card ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.pricing-card ul li i {
+  padding: 8px;
+  color: white;
+  background-color: #bdbdbd;
+  border-radius: 50%;
+}
+.pricing-card .gree-tik-pricing-card i {
+  background-color: #2dc071;
 }
