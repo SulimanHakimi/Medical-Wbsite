@@ -97,6 +97,7 @@ nav {
   color: white;
   background-color: #fc724d;
   font-weight: 700;
+  cursor: pointer;
   border: none;
   border-radius: 5px;
 }
@@ -162,7 +163,7 @@ nav {
 }
 /* meet-experts */
 .meet-experts {
-  height: 1065px;
+  height: 1000px;
   margin: 0px 14%;
   display: flex;
   flex-direction: column;
