@@ -394,6 +394,7 @@ nav {
   align-items: center;
 }
 .Impressions2-btn-learnMore span {
+  color: #fc724d !important;
   font-size: 30px;
   font-weight: 600;
 }
