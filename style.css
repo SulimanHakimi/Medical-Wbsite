@@ -52,10 +52,13 @@ nav {
   background-color: #fc724d;
   font-weight: 700;
   cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
   border-radius: 5px;
 }
 .joinBtn i {
-  margin-left: 5px;
+  color: white;
 }
 /* nav end ///////////////////////////////////*/
 /* home start */
@@ -407,7 +410,7 @@ nav {
   justify-content: space-evenly;
   flex-direction: column;
 }
-.pricing-title {
+.pricing-title strong {
   color: white;
 }
 .pricing-title p {
